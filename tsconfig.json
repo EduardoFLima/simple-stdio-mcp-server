@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // general
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    // strictness
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    // for transpiling with tsc (not bundled)
+    "module": "NodeNext",
+    "outDir": "dist",
+    // for running in the DOM
+    "lib": [
+      "es2022",
+      // for running in the DOM
+      // "dom",
+      // "dom.iterable"
+    ]
+  }
+}
